@@ -14,12 +14,12 @@
     }
 
     echo "<br>";
-
-        echo "Second Shape:<br>";
-        for ($i = 0; $i > count($arr); $i++) {
-            for ($j = 3; $j > count($arr[$i]) - $i - 1; $j--) {
-                echo $arr[$i][$j] . " ";
-            }
-            echo "<br>";
+    echo "Second Shape:<br>";
+    for ($i = 0; $i < count($arr); $i++) {
+        for ($j = 3 - $i; $j < count($arr[$i]); $j++) 
+        {
+            echo $arr[$i][$j] . " ";
         }
+        echo "<br>";
+    }
 ?>
