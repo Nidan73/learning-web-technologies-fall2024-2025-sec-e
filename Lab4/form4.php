@@ -11,7 +11,7 @@ if (isset($_POST["day"], $_POST["month"], $_POST["year"])) {
 
    
     function isValidDateOfBirth($day, $month, $year) {
-        // Check if any of the fields are empty
+       
         if (empty($day) || empty($month) || empty($year)) {
             return false;
         }
