@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <script src="../assets/scripts.js"></script>
+</head>
+<body>
+    <form method="post" action="../controller/loginCheck.php" onsubmit="return validateLoginForm();">
+        Username: <input type="text" id="username" name="username" required /><br>
+        Password: <input type="password" id="password" name="password" required /><br>
+        <input type="submit" name="submit" value="Login" />
+    </form>
+    <a href="signup.html">Register</a>
+</body>
+</html>

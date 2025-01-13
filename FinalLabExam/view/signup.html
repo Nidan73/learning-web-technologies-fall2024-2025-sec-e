@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+    <script src="../assets/scripts.js"></script>
+</head>
+<body>
+    <form method="post" action="../controller/signupCheck.php" onsubmit="return validateSignupForm();">
+        Username: <input type="text" id="username" name="username" required /><br>
+        Name: <input type="text" id="name" name="name" required /><br>
+        Password: <input type="password" id="password" name="password" required /><br>
+        Contact: <input type="text" id="contact" name="contact" required /><br>
+        <input type="submit" name="submit" value="Register" />
+    </form>
+    <a href="login.html">I already have an account</a>
+</body>
+</html>
