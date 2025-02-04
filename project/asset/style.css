@@ -1,0 +1,337 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.profile-info {
+    margin-bottom: 20px;
+}
+
+.profile-info p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.profile-actions {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.campaign-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.campaign-table th, .campaign-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.campaign-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.campaign-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.campaign-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.contribution-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.contribution-table th, .contribution-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.contribution-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.contribution-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.contribution-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.options-list {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.options-list li {
+    margin: 10px 0; 
+}
+
+.profile-actions {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.dashboard-links {
+    text-align: center;
+}
+
+
+.analytics-table th, .analytics-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.analytics-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.analytics-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.analytics-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.campaigns-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.campaigns-table th, .campaigns-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.campaigns-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.campaigns-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.campaigns-table tr:hover {
+    background-color: #f1f1f1;
+}
+.report-links {
+    list-style-type: none; 
+    padding: 0; 
+    text-align: center;
+}
+
+.report-links li {
+    margin: 10px 0; 
+}
+.contributors-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.contributors-table th, .contributors-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.contributors-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.contributors-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.contributors-table tr:hover {
+    background-color: #f1f1f1;
+}
+.donations-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.donations-table th, .donations-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.donations-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.donations-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.donations-table tr:hover {
+    background-color: #f1f1f1;
+}
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    border: none; 
+    cursor: pointer; 
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.category-list {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.category-list li {
+    margin: 10px 0; 
+}
+
+.category-list input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.contribution-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.contribution-table th, .contribution-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.contribution-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.contribution-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.contribution-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+form {
+    margin: 20px 0; 
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"],
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+/* Dashboard Styles */
+.dashboard {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard fieldset {
+    border: none;
+}
+
+.dashboard legend {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.dashboard ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.dashboard li {
+    margin: 10px 0; 
+}
+
+.dashboard a {
+    display: block; 
+    margin: 10px 0; 
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s; 
+}
+
+.dashboard a:hover {
+    background-color: #45a049;
+}

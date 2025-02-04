@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../asset/style.css">
+    <script src="../asset/validation.js" defer></script>
+</head>
+<body>
+    <form id="loginForm" method="post">
+        <fieldset>
+            <legend>Login Page</legend>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+            <div id="errorMsg" class="text-center" style="color: red; font-size: 0.9em;"></div>
+            <input type="submit" name="submit" value="Login">
+        </fieldset>
+    </form>
+</body>
+</html>
